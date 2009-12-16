@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		1F4C161A10D7C99B0002BD95 /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C161910D7C99B0002BD95 /* Timer.m */; };
+		1F4C163110D7CE3B0002BD95 /* colon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C162610D7CE3B0002BD95 /* colon.png */; };
+		1F4C163210D7CE3B0002BD95 /* digit-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C162710D7CE3B0002BD95 /* digit-0.png */; };
+		1F4C163310D7CE3B0002BD95 /* digit-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C162810D7CE3B0002BD95 /* digit-1.png */; };
+		1F4C163410D7CE3B0002BD95 /* digit-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C162910D7CE3B0002BD95 /* digit-2.png */; };
+		1F4C163510D7CE3B0002BD95 /* digit-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C162A10D7CE3B0002BD95 /* digit-3.png */; };
+		1F4C163610D7CE3B0002BD95 /* digit-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C162B10D7CE3B0002BD95 /* digit-4.png */; };
+		1F4C163710D7CE3B0002BD95 /* digit-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C162C10D7CE3B0002BD95 /* digit-5.png */; };
+		1F4C163810D7CE3B0002BD95 /* digit-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C162D10D7CE3B0002BD95 /* digit-6.png */; };
+		1F4C163910D7CE3B0002BD95 /* digit-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C162E10D7CE3B0002BD95 /* digit-7.png */; };
+		1F4C163A10D7CE3B0002BD95 /* digit-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C162F10D7CE3B0002BD95 /* digit-8.png */; };
+		1F4C163B10D7CE3B0002BD95 /* no_colon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C163010D7CE3B0002BD95 /* no_colon.png */; };
+		1F4C165210D7DDA60002BD95 /* pause-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C165010D7DDA60002BD95 /* pause-button.png */; };
+		1F4C165310D7DDA60002BD95 /* start-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C165110D7DDA60002BD95 /* start-button.png */; };
+		1F4C16BE10D7F0C30002BD95 /* digit-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C16BD10D7F0C30002BD95 /* digit-9.png */; };
+		1F4C171910D805960002BD95 /* alarm-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C171810D805960002BD95 /* alarm-button.png */; };
+		1F4C176610D810D50002BD95 /* alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C176510D810D50002BD95 /* alarm.wav */; };
+		1F4C18B010D847310002BD95 /* clear-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C18AF10D847310002BD95 /* clear-button.png */; };
+		1F4C18C510D84AE20002BD95 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C18C410D84AE20002BD95 /* click.wav */; };
+		1F4C190E10D851D70002BD95 /* clear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C190D10D851D70002BD95 /* clear.wav */; };
+		1F4C192210D853BA0002BD95 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C192110D853BA0002BD95 /* Icon.icns */; };
+		256AC3DA0F4B6AC300CF3369 /* TimrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* TimrAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1F4C161810D7C99B0002BD95 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		1F4C161910D7C99B0002BD95 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
+		1F4C162610D7CE3B0002BD95 /* colon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colon.png; sourceTree = "<group>"; };
+		1F4C162710D7CE3B0002BD95 /* digit-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "digit-0.png"; sourceTree = "<group>"; };
+		1F4C162810D7CE3B0002BD95 /* digit-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "digit-1.png"; sourceTree = "<group>"; };
+		1F4C162910D7CE3B0002BD95 /* digit-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "digit-2.png"; sourceTree = "<group>"; };
+		1F4C162A10D7CE3B0002BD95 /* digit-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "digit-3.png"; sourceTree = "<group>"; };
+		1F4C162B10D7CE3B0002BD95 /* digit-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "digit-4.png"; sourceTree = "<group>"; };
+		1F4C162C10D7CE3B0002BD95 /* digit-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "digit-5.png"; sourceTree = "<group>"; };
+		1F4C162D10D7CE3B0002BD95 /* digit-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "digit-6.png"; sourceTree = "<group>"; };
+		1F4C162E10D7CE3B0002BD95 /* digit-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "digit-7.png"; sourceTree = "<group>"; };
+		1F4C162F10D7CE3B0002BD95 /* digit-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "digit-8.png"; sourceTree = "<group>"; };
+		1F4C163010D7CE3B0002BD95 /* no_colon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_colon.png; sourceTree = "<group>"; };
+		1F4C165010D7DDA60002BD95 /* pause-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-button.png"; sourceTree = "<group>"; };
+		1F4C165110D7DDA60002BD95 /* start-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start-button.png"; sourceTree = "<group>"; };
+		1F4C16BD10D7F0C30002BD95 /* digit-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "digit-9.png"; sourceTree = "<group>"; };
+		1F4C171810D805960002BD95 /* alarm-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm-button.png"; sourceTree = "<group>"; };
+		1F4C176510D810D50002BD95 /* alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alarm.wav; sourceTree = "<group>"; };
+		1F4C18AF10D847310002BD95 /* clear-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-button.png"; sourceTree = "<group>"; };
+		1F4C18C410D84AE20002BD95 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		1F4C190D10D851D70002BD95 /* clear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clear.wav; sourceTree = "<group>"; };
+		1F4C192110D853BA0002BD95 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* TimrAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimrAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* TimrAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimrAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Timr_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timr_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Timr-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Timr-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Timr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1F4C161810D7C99B0002BD95 /* Timer.h */,
+				1F4C161910D7C99B0002BD95 /* Timer.m */,
+				256AC3D80F4B6AC300CF3369 /* TimrAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* TimrAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Timr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F4C160610D7BF030002BD95 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1F4C18AF10D847310002BD95 /* clear-button.png */,
+				1F4C171810D805960002BD95 /* alarm-button.png */,
+				1F4C165010D7DDA60002BD95 /* pause-button.png */,
+				1F4C165110D7DDA60002BD95 /* start-button.png */,
+				1F4C162610D7CE3B0002BD95 /* colon.png */,
+				1F4C162710D7CE3B0002BD95 /* digit-0.png */,
+				1F4C162810D7CE3B0002BD95 /* digit-1.png */,
+				1F4C162910D7CE3B0002BD95 /* digit-2.png */,
+				1F4C162A10D7CE3B0002BD95 /* digit-3.png */,
+				1F4C162B10D7CE3B0002BD95 /* digit-4.png */,
+				1F4C162C10D7CE3B0002BD95 /* digit-5.png */,
+				1F4C162D10D7CE3B0002BD95 /* digit-6.png */,
+				1F4C162E10D7CE3B0002BD95 /* digit-7.png */,
+				1F4C162F10D7CE3B0002BD95 /* digit-8.png */,
+				1F4C16BD10D7F0C30002BD95 /* digit-9.png */,
+				1F4C163010D7CE3B0002BD95 /* no_colon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1F4C18C310D84ABF0002BD95 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1F4C190D10D851D70002BD95 /* clear.wav */,
+				1F4C18C410D84AE20002BD95 /* click.wav */,
+				1F4C176510D810D50002BD95 /* alarm.wav */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Timr */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Timr;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Timr_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F4C192110D853BA0002BD95 /* Icon.icns */,
+				1F4C18C310D84ABF0002BD95 /* sounds */,
+				1F4C160610D7BF030002BD95 /* Images */,
+				8D1107310486CEB800E47090 /* Timr-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Timr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Timr" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timr;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Timr;
+			productReference = 8D1107320486CEB800E47090 /* Timr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Timr" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Timr */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Timr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				1F4C163110D7CE3B0002BD95 /* colon.png in Resources */,
+				1F4C163210D7CE3B0002BD95 /* digit-0.png in Resources */,
+				1F4C163310D7CE3B0002BD95 /* digit-1.png in Resources */,
+				1F4C163410D7CE3B0002BD95 /* digit-2.png in Resources */,
+				1F4C163510D7CE3B0002BD95 /* digit-3.png in Resources */,
+				1F4C163610D7CE3B0002BD95 /* digit-4.png in Resources */,
+				1F4C163710D7CE3B0002BD95 /* digit-5.png in Resources */,
+				1F4C163810D7CE3B0002BD95 /* digit-6.png in Resources */,
+				1F4C163910D7CE3B0002BD95 /* digit-7.png in Resources */,
+				1F4C163A10D7CE3B0002BD95 /* digit-8.png in Resources */,
+				1F4C163B10D7CE3B0002BD95 /* no_colon.png in Resources */,
+				1F4C165210D7DDA60002BD95 /* pause-button.png in Resources */,
+				1F4C165310D7DDA60002BD95 /* start-button.png in Resources */,
+				1F4C16BE10D7F0C30002BD95 /* digit-9.png in Resources */,
+				1F4C171910D805960002BD95 /* alarm-button.png in Resources */,
+				1F4C176610D810D50002BD95 /* alarm.wav in Resources */,
+				1F4C18B010D847310002BD95 /* clear-button.png in Resources */,
+				1F4C18C510D84AE20002BD95 /* click.wav in Resources */,
+				1F4C190E10D851D70002BD95 /* clear.wav in Resources */,
+				1F4C192210D853BA0002BD95 /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* TimrAppDelegate.m in Sources */,
+				1F4C161A10D7C99B0002BD95 /* Timer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Timr_Prefix.pch;
+				INFOPLIST_FILE = "Timr-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = Timr;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Timr_Prefix.pch;
+				INFOPLIST_FILE = "Timr-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = Timr;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Timr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Timr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
