@@ -55,6 +55,21 @@
 	return self;
 }
 
+- (void)dealloc {
+
+	[digits release];
+	[colon release];
+	[no_colon release];
+	[start_button release];
+	[pause_button release];
+	[alarm_button release];
+	[clickSound release];
+	[clearSound release];
+	
+	[super dealloc];
+
+}
+
 - (void)applicationLoaded:(id)sender {
 	[(NSButtonCell *)[hour1 cell] setHighlightsBy:NSContentsCellMask];
 	[(NSButtonCell *)[hour2 cell] setHighlightsBy:NSContentsCellMask];
