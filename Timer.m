@@ -23,10 +23,10 @@
 		}
 
 		colon = [[NSImage imageNamed:@"colon.png"] retain];
-		no_colon = [NSImage imageNamed:@"no_colon.png"];
-		start_button = [NSImage imageNamed:@"start-button.png"];
-		pause_button = [NSImage imageNamed:@"pause-button.png"];
-		alarm_button = [NSImage imageNamed:@"alarm-button.png"];
+		no_colon = [[NSImage imageNamed:@"no_colon.png"] retain];
+		start_button = [[NSImage imageNamed:@"start-button.png"] retain];
+		pause_button = [[NSImage imageNamed:@"pause-button.png"] retain];
+		alarm_button = [[NSImage imageNamed:@"alarm-button.png"] retain];
 		
 		NSString *path = [[NSBundle mainBundle] pathForResource:@"alarm" ofType:@"wav"];
 		alarmSound = [[NSSound alloc] initWithContentsOfFile:path byReference:NO];
