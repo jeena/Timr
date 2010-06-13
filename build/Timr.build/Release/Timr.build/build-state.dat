@@ -1,993 +1,0 @@
-TTimr
-v7
-r0
-t282616772.161148
-cCheck dependencies
-cProcessInfoPlistFile /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Info.plist Timr-Info.plist
-cCopyStringsFile /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileXIB /Users/jeena/Projects/Timr/English.lproj/MainMenu.xib
-cCpResource build/Release/Timr.app/Contents/Resources/colon.png colon.png
-cCpResource build/Release/Timr.app/Contents/Resources/digit-0.png digit-0.png
-cCpResource build/Release/Timr.app/Contents/Resources/digit-1.png digit-1.png
-cCpResource build/Release/Timr.app/Contents/Resources/digit-2.png digit-2.png
-cCpResource build/Release/Timr.app/Contents/Resources/digit-3.png digit-3.png
-cCpResource build/Release/Timr.app/Contents/Resources/digit-4.png digit-4.png
-cCpResource build/Release/Timr.app/Contents/Resources/digit-5.png digit-5.png
-cCpResource build/Release/Timr.app/Contents/Resources/digit-6.png digit-6.png
-cCpResource build/Release/Timr.app/Contents/Resources/digit-7.png digit-7.png
-cCpResource build/Release/Timr.app/Contents/Resources/digit-8.png digit-8.png
-cCpResource build/Release/Timr.app/Contents/Resources/no_colon.png no_colon.png
-cCpResource build/Release/Timr.app/Contents/Resources/pause-button.png pause-button.png
-cCpResource build/Release/Timr.app/Contents/Resources/start-button.png start-button.png
-cCpResource build/Release/Timr.app/Contents/Resources/digit-9.png digit-9.png
-cCpResource build/Release/Timr.app/Contents/Resources/alarm-button.png alarm-button.png
-cCpResource build/Release/Timr.app/Contents/Resources/alarm.wav alarm.wav
-cCpResource build/Release/Timr.app/Contents/Resources/clear-button.png clear-button.png
-cCpResource build/Release/Timr.app/Contents/Resources/click.wav click.wav
-cCpResource build/Release/Timr.app/Contents/Resources/clear.wav clear.wav
-cCpResource build/Release/Timr.app/Contents/Resources/Icon.icns Icon.icns
-cProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-gamokpcsumbjfradcnrpaptywctx/Timr_Prefix.pch.gch Timr_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-czupwbyuncfarwcucgqbhfwwapmn/Timr_Prefix.pch.gch Timr_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-bpgfsuxvsaktckecmyekcxlvekur/Timr_Prefix.pch.gch Timr_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Timr.build/Release/Timr.build/Objects-normal/x86_64/main.o /Users/jeena/Projects/Timr/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Timr.build/Release/Timr.build/Objects-normal/x86_64/TimrAppDelegate.o /Users/jeena/Projects/Timr/TimrAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Timr.build/Release/Timr.build/Objects-normal/x86_64/Timer.o /Users/jeena/Projects/Timr/Timer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/Timr normal x86_64
-cCompileC build/Timr.build/Release/Timr.build/Objects-normal/i386/main.o /Users/jeena/Projects/Timr/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Timr.build/Release/Timr.build/Objects-normal/i386/TimrAppDelegate.o /Users/jeena/Projects/Timr/TimrAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Timr.build/Release/Timr.build/Objects-normal/i386/Timer.o /Users/jeena/Projects/Timr/Timer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/Timr normal i386
-cCompileC build/Timr.build/Release/Timr.build/Objects-normal/ppc/main.o /Users/jeena/Projects/Timr/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Timr.build/Release/Timr.build/Objects-normal/ppc/TimrAppDelegate.o /Users/jeena/Projects/Timr/TimrAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Timr.build/Release/Timr.build/Objects-normal/ppc/Timer.o /Users/jeena/Projects/Timr/Timer.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cLd /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/Timr normal ppc
-cCreateUniversalBinary /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/MacOS/Timr normal "x86_64 i386 ppc"
-cGenerateDSYMFile /Users/jeena/Projects/Timr/build/Release/Timr.app.dSYM /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/MacOS/Timr
-cTouch /Users/jeena/Projects/Timr/build/Release/Timr.app
-
-N/Developer/SDKs/MacOSX10.5.sdk
-c000000004AB44D2500000000000000EE
-t1253330213
-s238
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004ABBF0FD00000000000000EE
-t1253830909
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/Users/jeena/Projects/Timr/English.lproj/InfoPlist.strings
-c000000004B278085000000000000002D
-t1260880005
-s45
-
-N/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib
-c000000004B28115900000000000331D4
-t1260917081
-s209364
-
-N/Users/jeena/Projects/Timr/Icon.icns
-c000000004B281C270000000000016DB4
-t1260919847
-s93620
-
-N/Users/jeena/Projects/Timr/Slam Door Sound.wav-22905-Free-Loops.com.wav
-c000000004B281A0D000000000000A3E2
-t1260919309
-s41954
-
-N/Users/jeena/Projects/Timr/Timer.h
-c000000004B2820010000000000000461
-t1260920833
-s1121
-i<Cocoa/Cocoa.h>
-
-N/Users/jeena/Projects/Timr/Timer.m
-c000000004B282C2600000000000015C5
-t1260923942
-s5573
-i"Timer.h"
-
-N/Users/jeena/Projects/Timr/TimrAppDelegate.h
-c000000004B28200300000000000001E0
-t1260920835
-s480
-i<Cocoa/Cocoa.h>
-i"Timer.h"
-
-N/Users/jeena/Projects/Timr/TimrAppDelegate.m
-c000000004B2820050000000000000186
-t1260920837
-s390
-i"TimrAppDelegate.h"
-
-N/Users/jeena/Projects/Timr/Timr_Prefix.pch
-c000000004B278085000000000000008B
-t1260880005
-s139
-i<Cocoa/Cocoa.h>
-
-N/Users/jeena/Projects/Timr/alarm-button.png
-c000000004B27CE090000000000002EE7
-t1260899849
-s12007
-
-N/Users/jeena/Projects/Timr/alarm-sound.wav
-c00000000474C787200000000002D7354
-t1196193906
-s2978644
-
-N/Users/jeena/Projects/Timr/alarm.wav
-c00000000474C787200000000002D7354
-t1196193906
-s2978644
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app
-t1260923954
-s102
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app.dSYM
-t1260923954
-s102
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Info.plist
-t1260922356
-s933
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/MacOS/Timr
-t1260923954
-s69000
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/PkgInfo
-t1260922356
-s8
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1260918115
-s92
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/English.lproj/MainMenu.nib
-t1260918116
-s40737
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/Icon.icns
-t1260919872
-s93620
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/Slam Door Sound.wav-22905-Free-Loops.com.wav
-t2
-s0
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/alarm-button.png
-t1260918115
-s12007
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/alarm-sound.wav
-t1260918115
-s2978644
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/alarm.wav
-t1260919500
-s2978644
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/clear-button.png
-t1260918115
-s2146
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/clear.wav
-t1260919500
-s41954
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/click.wav
-t1260918116
-s7258
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/colon.png
-t1260918115
-s189
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/digit-0.png
-t1260918115
-s510
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/digit-1.png
-t1260918115
-s374
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/digit-2.png
-t1260918115
-s472
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/digit-3.png
-t1260918115
-s488
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/digit-4.png
-t1260918115
-s432
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/digit-5.png
-t1260918115
-s477
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/digit-6.png
-t1260918115
-s508
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/digit-7.png
-t1260918115
-s430
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/digit-8.png
-t1260918115
-s542
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/digit-9.png
-t1260918115
-s512
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/no_colon.png
-t1260918115
-s134
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/pause-button.png
-t1260918115
-s12177
-
-N/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/start-button.png
-t1260918115
-s12170
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/Timer.o
-t1260923953
-s30184
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/Timr
-t1260923953
-s20256
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/Timr.LinkFileList
-c000000004B281563000000000000011A
-t1260918115
-s282
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/TimrAppDelegate.o
-t1260922247
-s14724
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/main.o
-t1260922247
-s4828
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/Timer.o
-t1260923954
-s31456
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/Timr
-t1260923954
-s19848
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/Timr.LinkFileList
-c000000004B2815630000000000000117
-t1260918115
-s279
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/TimrAppDelegate.o
-t1260922248
-s14552
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/main.o
-t1260922248
-s4856
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/Timer.o
-t1260923953
-s43716
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/Timr
-t1260923953
-s24072
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/Timr.LinkFileList
-c000000004B2815630000000000000120
-t1260918115
-s288
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/TimrAppDelegate.o
-t1260922247
-s17492
-
-N/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/main.o
-t1260922247
-s5032
-
-N/Users/jeena/Projects/Timr/clear-button.png
-c000000004B280F770000000000000862
-t1260916599
-s2146
-
-N/Users/jeena/Projects/Timr/clear.wav
-c000000004B281A0D000000000000A3E2
-t1260919309
-s41954
-
-N/Users/jeena/Projects/Timr/click.wav
-c000000004B28130F0000000000001C5A
-t1260917519
-s7258
-
-N/Users/jeena/Projects/Timr/colon.png
-c000000004B278F5E00000000000000BD
-t1260883806
-s189
-
-N/Users/jeena/Projects/Timr/digit-0.png
-c000000004B27891E00000000000001FE
-t1260882206
-s510
-
-N/Users/jeena/Projects/Timr/digit-1.png
-c000000004B278EE10000000000000176
-t1260883681
-s374
-
-N/Users/jeena/Projects/Timr/digit-2.png
-c000000004B27892A00000000000001D8
-t1260882218
-s472
-
-N/Users/jeena/Projects/Timr/digit-3.png
-c000000004B27893600000000000001E8
-t1260882230
-s488
-
-N/Users/jeena/Projects/Timr/digit-4.png
-c000000004B27894500000000000001B0
-t1260882245
-s432
-
-N/Users/jeena/Projects/Timr/digit-5.png
-c000000004B27897900000000000001DD
-t1260882297
-s477
-
-N/Users/jeena/Projects/Timr/digit-6.png
-c000000004B27899000000000000001FC
-t1260882320
-s508
-
-N/Users/jeena/Projects/Timr/digit-7.png
-c000000004B27899E00000000000001AE
-t1260882334
-s430
-
-N/Users/jeena/Projects/Timr/digit-8.png
-c000000004B278769000000000000021E
-t1260881769
-s542
-
-N/Users/jeena/Projects/Timr/digit-9.png
-c000000004B27B9350000000000000200
-t1260894517
-s512
-
-N/Users/jeena/Projects/Timr/main.m
-c000000004B28200800000000000000F1
-t1260920840
-s241
-i<Cocoa/Cocoa.h>
-
-N/Users/jeena/Projects/Timr/no_colon.png
-c000000004B2794FA0000000000000086
-t1260885242
-s134
-
-N/Users/jeena/Projects/Timr/pause-button.png
-c000000004B27A5D80000000000002F91
-t1260889560
-s12177
-
-N/Users/jeena/Projects/Timr/start-button.png
-c000000004B27A5BF0000000000002F8A
-t1260889535
-s12170
-
-N/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-bpgfsuxvsaktckecmyekcxlvekur/Timr_Prefix.pch.gch
-t1260920343
-s50057456
-
-N/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-bydyffzfzerucddyiqkleagtonab/Timr_Prefix.pch.gch
-t1260918122
-s55502640
-
-N/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-czupwbyuncfarwcucgqbhfwwapmn/Timr_Prefix.pch.gch
-t1260920340
-s52826544
-
-N/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-ekfritldexgmrqgzpjiculjimokx/Timr_Prefix.pch.gch
-t1260918121
-s52868880
-
-N/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-ekqzddmxvrvkmydcpzvhuagmyaiz/Timr_Prefix.pch.gch
-t1260922194
-s53047792
-
-N/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-fhuufnwqasjdejfdybxdktrchgng/Timr_Prefix.pch.gch
-t1260922194
-s49979696
-
-N/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-fqyjnqagoygsnqbukssfxerdtywm/Timr_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-fzbbnodaaduminaxboqgfihihwrb/Timr_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-gamokpcsumbjfradcnrpaptywctx/Timr_Prefix.pch.gch
-t1260920340
-s49901872
-
-N/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-ggxhorspmloirxefyuhfkiwjneqe/Timr_Prefix.pch.gch
-t1260922198
-s50041136
-
-N/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-guxomtnxtwxknzelbsxmbgmheyoh/Timr_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-hbbkztezomnxjodbqxjszvocgudg/Timr_Prefix.pch.gch
-t1260918126
-s52737616
-
-NTimr-Info.plist
-c000000004B2825F400000000000003BE
-t1260922356
-s958
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies282616772#282616772#0(0"0(0#1#0"4300885448#0"0#
-
-CCompileC build/Timr.build/Release/Timr.build/Objects-normal/i386/Timer.o /Users/jeena/Projects/Timr/Timer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282616753.419479
-e282616753.787054
-r1
-xCompileC
-xbuild/Timr.build/Release/Timr.build/Objects-normal/i386/Timer.o
-x/Users/jeena/Projects/Timr/Timer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@42"Compile /Users/jeena/Projects/Timr/Timer.m282616753#282616753#0(0"0(0#0#34"/Users/jeena/Projects/Timr/Timer.m4300885448#1290"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/i386 -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-czupwbyuncfarwcucgqbhfwwapmn/Timr_Prefix.pch -c /Users/jeena/Projects/Timr/Timer.m -o /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/Timer.o0#
-
-CCompileC build/Timr.build/Release/Timr.build/Objects-normal/i386/TimrAppDelegate.o /Users/jeena/Projects/Timr/TimrAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282615047.808503
-e282615047.975698
-r1
-xCompileC
-xbuild/Timr.build/Release/Timr.build/Objects-normal/i386/TimrAppDelegate.o
-x/Users/jeena/Projects/Timr/TimrAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/jeena/Projects/Timr/TimrAppDelegate.m282615047#282615047#0(0"0(0#0#44"/Users/jeena/Projects/Timr/TimrAppDelegate.m4300885448#1310"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/i386 -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-czupwbyuncfarwcucgqbhfwwapmn/Timr_Prefix.pch -c /Users/jeena/Projects/Timr/TimrAppDelegate.m -o /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/TimrAppDelegate.o0#
-
-CCompileC build/Timr.build/Release/Timr.build/Objects-normal/i386/main.o /Users/jeena/Projects/Timr/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s282615047.621378
-e282615047.808399
-r1
-xCompileC
-xbuild/Timr.build/Release/Timr.build/Objects-normal/i386/main.o
-x/Users/jeena/Projects/Timr/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@41"Compile /Users/jeena/Projects/Timr/main.m282615047#282615047#0(0"0(0#0#33"/Users/jeena/Projects/Timr/main.m4300885448#1288"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/i386 -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-czupwbyuncfarwcucgqbhfwwapmn/Timr_Prefix.pch -c /Users/jeena/Projects/Timr/main.m -o /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/main.o0#
-
-CCompileC build/Timr.build/Release/Timr.build/Objects-normal/ppc/Timer.o /Users/jeena/Projects/Timr/Timer.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s282616753.825185
-e282616754.118300
-r1
-xCompileC
-xbuild/Timr.build/Release/Timr.build/Objects-normal/ppc/Timer.o
-x/Users/jeena/Projects/Timr/Timer.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@42"Compile /Users/jeena/Projects/Timr/Timer.m282616753#282616754#0(0"0(0#0#34"/Users/jeena/Projects/Timr/Timer.m4300885448#1284"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/ppc -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-bpgfsuxvsaktckecmyekcxlvekur/Timr_Prefix.pch -c /Users/jeena/Projects/Timr/Timer.m -o /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/Timer.o0#
-
-CCompileC build/Timr.build/Release/Timr.build/Objects-normal/ppc/TimrAppDelegate.o /Users/jeena/Projects/Timr/TimrAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s282615048.242152
-e282615048.514445
-r1
-xCompileC
-xbuild/Timr.build/Release/Timr.build/Objects-normal/ppc/TimrAppDelegate.o
-x/Users/jeena/Projects/Timr/TimrAppDelegate.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/jeena/Projects/Timr/TimrAppDelegate.m282615048#282615048#0(0"0(0#0#44"/Users/jeena/Projects/Timr/TimrAppDelegate.m4300885448#1304"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/ppc -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-bpgfsuxvsaktckecmyekcxlvekur/Timr_Prefix.pch -c /Users/jeena/Projects/Timr/TimrAppDelegate.m -o /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/TimrAppDelegate.o0#
-
-CCompileC build/Timr.build/Release/Timr.build/Objects-normal/ppc/main.o /Users/jeena/Projects/Timr/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s282615048.082583
-e282615048.242047
-r1
-xCompileC
-xbuild/Timr.build/Release/Timr.build/Objects-normal/ppc/main.o
-x/Users/jeena/Projects/Timr/main.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@41"Compile /Users/jeena/Projects/Timr/main.m282615048#282615048#0(0"0(0#0#33"/Users/jeena/Projects/Timr/main.m4300885448#1282"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/ppc -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-bpgfsuxvsaktckecmyekcxlvekur/Timr_Prefix.pch -c /Users/jeena/Projects/Timr/main.m -o /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/main.o0#
-
-CCompileC build/Timr.build/Release/Timr.build/Objects-normal/x86_64/Timer.o /Users/jeena/Projects/Timr/Timer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s282616753.406281
-e282616753.838589
-r1
-xCompileC
-xbuild/Timr.build/Release/Timr.build/Objects-normal/x86_64/Timer.o
-x/Users/jeena/Projects/Timr/Timer.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@42"Compile /Users/jeena/Projects/Timr/Timer.m282616753#282616753#0(0"0(0#0#34"/Users/jeena/Projects/Timr/Timer.m3907004821821025792#1296"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/x86_64 -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-gamokpcsumbjfradcnrpaptywctx/Timr_Prefix.pch -c /Users/jeena/Projects/Timr/Timer.m -o /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/Timer.o0#
-
-CCompileC build/Timr.build/Release/Timr.build/Objects-normal/x86_64/TimrAppDelegate.o /Users/jeena/Projects/Timr/TimrAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s282615047.398076
-e282615047.621272
-r1
-xCompileC
-xbuild/Timr.build/Release/Timr.build/Objects-normal/x86_64/TimrAppDelegate.o
-x/Users/jeena/Projects/Timr/TimrAppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/jeena/Projects/Timr/TimrAppDelegate.m282615047#282615047#0(0"0(0#0#44"/Users/jeena/Projects/Timr/TimrAppDelegate.m4300885448#1316"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/x86_64 -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-gamokpcsumbjfradcnrpaptywctx/Timr_Prefix.pch -c /Users/jeena/Projects/Timr/TimrAppDelegate.m -o /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/TimrAppDelegate.o0#
-
-CCompileC build/Timr.build/Release/Timr.build/Objects-normal/x86_64/main.o /Users/jeena/Projects/Timr/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s282615047.397089
-e282615047.593567
-r1
-xCompileC
-xbuild/Timr.build/Release/Timr.build/Objects-normal/x86_64/main.o
-x/Users/jeena/Projects/Timr/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@41"Compile /Users/jeena/Projects/Timr/main.m282615047#282615047#0(0"0(0#0#33"/Users/jeena/Projects/Timr/main.m4300885448#1294"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/x86_64 -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-gamokpcsumbjfradcnrpaptywctx/Timr_Prefix.pch -c /Users/jeena/Projects/Timr/main.m -o /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/main.o0#
-
-CCompileXIB /Users/jeena/Projects/Timr/English.lproj/MainMenu.xib
-s282610915.781880
-e282610916.658207
-r1
-xCompileXIB
-x/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib
-o/* com.apple.ibtool.document.notices */
-o/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:603: note: This view is clipping its content.
-o/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:609: note: This view is clipping its content.
-o/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:628: note: This view is clipping its content.
-o/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:605: note: This view is clipping its content.
-o/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:611: note: This view is clipping its content.
-o/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:607: note: This view is clipping its content.
-o/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:558: note: This view is clipping its content.
-o/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:613: note: This view is clipping its content.
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib282610915#282610916#0(840"/* com.apple.ibtool.document.notices *//Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:603: note: This view is clipping its content./Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:609: note: This view is clipping its content./Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:628: note: This view is clipping its content./Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:605: note: This view is clipping its content./Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:611: note: This view is clipping its content./Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:607: note: This view is clipping its content./Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:558: note: This view is clipping its content./Users/jeena/Projects/Timr/English.lproj/MainMenu.xib:613: note: This view is clipping its content.8(13@34"This view is clipping its content.282610916#18446744073709551615#0#0(6@53"/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib282609881#603#0#603#0#0"0(13@34"This view is clipping its content.282610916#18446744073709551615#0#0(6@53"/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib282609881#609#0#609#0#0"0(13@34"This view is clipping its content.282610916#18446744073709551615#0#0(6@53"/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib282609881#628#0#628#0#0"0(13@34"This view is clipping its content.282610916#18446744073709551615#0#0(6@53"/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib282609881#605#0#605#0#0"0(13@34"This view is clipping its content.282610916#18446744073709551615#0#0(6@53"/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib282609881#611#0#611#0#0"0(13@34"This view is clipping its content.282610916#18446744073709551615#0#0(6@53"/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib282609881#607#0#607#0#0"0(13@34"This view is clipping its content.282610916#18446744073709551615#0#0(6@53"/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib282609881#558#0#558#0#0"0(13@34"This view is clipping its content.282610916#18446744073709551615#0#0(6@53"/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib282609881#613#0#613#0#0"0(0#0#53"/Users/jeena/Projects/Timr/English.lproj/MainMenu.xib4300885448#290"    cd /Users/jeena/Projects/Timr    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/English.lproj/MainMenu.nib /Users/jeena/Projects/Timr/English.lproj/MainMenu.xib0#
-
-CCopyStringsFile /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s282610915.773819
-e282610915.858522
-r1
-xCopyStringsFile
-x/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings282610915#282610915#0(0"0(0#0#58"/Users/jeena/Projects/Timr/English.lproj/InfoPlist.strings4300885448#340"    cd /Users/jeena/Projects/Timr    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources/English.lproj0#
-
-CCpResource "build/Release/Timr.app/Contents/Resources/Slam Door Sound.wav-22905-Free-Loops.com.wav" "Slam Door Sound.wav-22905-Free-Loops.com.wav"
-r0
-
-CCpResource build/Release/Timr.app/Contents/Resources/Icon.icns Icon.icns
-s282612672.099281
-e282612672.110781
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/Icon.icns
-xIcon.icns
-lSLF07#2@14"Copy Icon.icns282612672#282612672#0(0"0(0#0#36"/Users/jeena/Projects/Timr/Icon.icns4300885448#309"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/Icon.icns /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/alarm-button.png alarm-button.png
-s282610915.973148
-e282610915.999430
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/alarm-button.png
-xalarm-button.png
-lSLF07#2@21"Copy alarm-button.png282610915#282610916#0(0"0(0#0#43"/Users/jeena/Projects/Timr/alarm-button.png4300885448#316"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/alarm-button.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/alarm-sound.wav alarm-sound.wav
-s282610915.976301
-e282610915.999538
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/alarm-sound.wav
-xalarm-sound.wav
-lSLF07#2@20"Copy alarm-sound.wav282610915#282610916#0(0"0(0#0#42"/Users/jeena/Projects/Timr/alarm-sound.wav4300885448#315"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/alarm-sound.wav /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/alarm.wav alarm.wav
-s282612300.347905
-e282612300.404454
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/alarm.wav
-xalarm.wav
-lSLF07#2@14"Copy alarm.wav282612300#282612300#0(0"0(0#0#36"/Users/jeena/Projects/Timr/alarm.wav4300885448#309"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/alarm.wav /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/clear-button.png clear-button.png
-s282610915.977402
-e282610915.999678
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/clear-button.png
-xclear-button.png
-lSLF07#2@21"Copy clear-button.png282610915#282610916#0(0"0(0#0#43"/Users/jeena/Projects/Timr/clear-button.png4300885448#316"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/clear-button.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/clear.wav clear.wav
-s282612300.355617
-e282612300.410722
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/clear.wav
-xclear.wav
-lSLF07#2@14"Copy clear.wav282612300#282612300#0(0"0(0#0#36"/Users/jeena/Projects/Timr/clear.wav4300885448#309"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/clear.wav /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/click.wav click.wav
-s282610915.996797
-e282610916.003957
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/click.wav
-xclick.wav
-lSLF07#2@14"Copy click.wav282610915#282610916#0(0"0(0#0#36"/Users/jeena/Projects/Timr/click.wav4300885448#309"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/click.wav /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/colon.png colon.png
-s282610915.858617
-e282610915.913060
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/colon.png
-xcolon.png
-lSLF07#2@14"Copy colon.png282610915#282610915#0(0"0(0#0#36"/Users/jeena/Projects/Timr/colon.png4300885448#309"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/colon.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/digit-0.png digit-0.png
-s282610915.859633
-e282610915.913205
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/digit-0.png
-xdigit-0.png
-lSLF07#2@16"Copy digit-0.png282610915#282610915#0(0"0(0#0#38"/Users/jeena/Projects/Timr/digit-0.png4300885448#311"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/digit-0.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/digit-1.png digit-1.png
-s282610915.864749
-e282610915.913908
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/digit-1.png
-xdigit-1.png
-lSLF07#2@16"Copy digit-1.png282610915#282610915#0(0"0(0#0#38"/Users/jeena/Projects/Timr/digit-1.png4300885448#311"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/digit-1.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/digit-2.png digit-2.png
-s282610915.867289
-e282610915.914048
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/digit-2.png
-xdigit-2.png
-lSLF07#2@16"Copy digit-2.png282610915#282610915#0(0"0(0#0#38"/Users/jeena/Projects/Timr/digit-2.png4300885448#311"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/digit-2.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/digit-3.png digit-3.png
-s282610915.872091
-e282610915.914242
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/digit-3.png
-xdigit-3.png
-lSLF07#2@16"Copy digit-3.png282610915#282610915#0(0"0(0#0#38"/Users/jeena/Projects/Timr/digit-3.png4300885448#311"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/digit-3.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/digit-4.png digit-4.png
-s282610915.878433
-e282610915.914373
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/digit-4.png
-xdigit-4.png
-lSLF07#2@16"Copy digit-4.png282610915#282610915#0(0"0(0#0#38"/Users/jeena/Projects/Timr/digit-4.png4300885448#311"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/digit-4.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/digit-5.png digit-5.png
-s282610915.880430
-e282610915.914504
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/digit-5.png
-xdigit-5.png
-lSLF07#2@16"Copy digit-5.png282610915#282610915#0(0"0(0#0#38"/Users/jeena/Projects/Timr/digit-5.png4300885448#311"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/digit-5.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/digit-6.png digit-6.png
-s282610915.892682
-e282610915.914641
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/digit-6.png
-xdigit-6.png
-lSLF07#2@16"Copy digit-6.png282610915#282610915#0(0"0(0#0#38"/Users/jeena/Projects/Timr/digit-6.png4300885448#311"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/digit-6.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/digit-7.png digit-7.png
-s282610915.897458
-e282610915.914765
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/digit-7.png
-xdigit-7.png
-lSLF07#2@16"Copy digit-7.png282610915#282610915#0(0"0(0#0#38"/Users/jeena/Projects/Timr/digit-7.png4300885448#311"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/digit-7.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/digit-8.png digit-8.png
-s282610915.914838
-e282610915.998618
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/digit-8.png
-xdigit-8.png
-lSLF07#2@16"Copy digit-8.png282610915#282610916#0(0"0(0#0#38"/Users/jeena/Projects/Timr/digit-8.png4300885448#311"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/digit-8.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/digit-9.png digit-9.png
-s282610915.939650
-e282610915.999319
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/digit-9.png
-xdigit-9.png
-lSLF07#2@16"Copy digit-9.png282610915#282610916#0(0"0(0#0#38"/Users/jeena/Projects/Timr/digit-9.png4300885448#311"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/digit-9.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/no_colon.png no_colon.png
-s282610915.915550
-e282610915.998744
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/no_colon.png
-xno_colon.png
-lSLF07#2@17"Copy no_colon.png282610915#282610916#0(0"0(0#0#39"/Users/jeena/Projects/Timr/no_colon.png4300885448#312"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/no_colon.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/pause-button.png pause-button.png
-s282610915.919479
-e282610915.998856
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/pause-button.png
-xpause-button.png
-lSLF07#2@21"Copy pause-button.png282610915#282610916#0(0"0(0#0#43"/Users/jeena/Projects/Timr/pause-button.png4300885448#316"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/pause-button.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCpResource build/Release/Timr.app/Contents/Resources/start-button.png start-button.png
-s282610915.921370
-e282610915.999208
-r1
-xCpResource
-xbuild/Release/Timr.app/Contents/Resources/start-button.png
-xstart-button.png
-lSLF07#2@21"Copy start-button.png282610915#282610916#0(0"0(0#0#43"/Users/jeena/Projects/Timr/start-button.png4300885448#316"    cd /Users/jeena/Projects/Timr    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jeena/Projects/Timr/start-button.png /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Resources0#
-
-CCreateUniversalBinary /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/MacOS/Timr normal "x86_64 i386 ppc"
-s282616754.147096
-e282616754.150500
-r1
-xCreateUniversalBinary
-x/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/MacOS/Timr
-xnormal
-xx86_64 i386 ppc
-lSLF07#2@89"CreateUniversalBinary build/Release/Timr.app/Contents/MacOS/Timr normal "x86_64 i386 ppc"282616754#282616754#0(0"0(0#0#42"/Users/jeena/Projects/Timr/x86_64 i386 ppc4300885448#403"    cd /Users/jeena/Projects/Timr    /usr/bin/lipo -create /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/Timr /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/Timr /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/Timr -output /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/MacOS/Timr0#
-
-CGenerateDSYMFile /Users/jeena/Projects/Timr/build/Release/Timr.app.dSYM /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/MacOS/Timr
-s282616754.150597
-e282616754.165799
-r1
-xGenerateDSYMFile
-x/Users/jeena/Projects/Timr/build/Release/Timr.app.dSYM
-x/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/MacOS/Timr
-lSLF07#2@87"GenerateDSYMFile build/Release/Timr.app.dSYM build/Release/Timr.app/Contents/MacOS/Timr282616754#282616754#0(0"0(0#0#69"/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/MacOS/Timr4300885448#194"    cd /Users/jeena/Projects/Timr    /Developer/usr/bin/dsymutil /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/MacOS/Timr -o /Users/jeena/Projects/Timr/build/Release/Timr.app.dSYM0#
-
-CLd /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/Timr normal i386
-s282616753.787157
-e282616753.824871
-r1
-xLd
-x/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/Timr
-xnormal
-xi386
-lSLF07#2@92"Link /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/Timr282616753#282616753#0(0"0(0#0#0"4300885448#489"    cd /Users/jeena/Projects/Timr    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/jeena/Projects/Timr/build/Release -F/Users/jeena/Projects/Timr/build/Release -filelist /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/Timr.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -o /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/i386/Timr0#
-
-CLd /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/Timr normal ppc
-s282616754.118391
-e282616754.146983
-r1
-xLd
-x/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/Timr
-xnormal
-xppc
-lSLF07#2@91"Link /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/Timr282616754#282616754#0(0"0(0#0#0"4300885448#486"    cd /Users/jeena/Projects/Timr    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/jeena/Projects/Timr/build/Release -F/Users/jeena/Projects/Timr/build/Release -filelist /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/Timr.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -o /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/ppc/Timr0#
-
-CLd /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/Timr normal x86_64
-s282616753.838683
-e282616753.874558
-r1
-xLd
-x/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/Timr
-xnormal
-xx86_64
-lSLF07#2@94"Link /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/Timr282616753#282616753#0(0"0(0#0#0"4300885448#495"    cd /Users/jeena/Projects/Timr    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/jeena/Projects/Timr/build/Release -F/Users/jeena/Projects/Timr/build/Release -filelist /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/Timr.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -o /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Objects-normal/x86_64/Timr0#
-
-CProcessInfoPlistFile /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Info.plist Timr-Info.plist
-s282615156.812792
-e282615156.861601
-r1
-xProcessInfoPlistFile
-x/Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Info.plist
-xTimr-Info.plist
-lSLF07#2@23"Process Timr-Info.plist282615156#282615156#0(0"0(0#0#42"/Users/jeena/Projects/Timr/Timr-Info.plist4300885448#269"    cd /Users/jeena/Projects/Timr    builtin-infoPlistUtility Timr-Info.plist -genpkginfo /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/jeena/Projects/Timr/build/Release/Timr.app/Contents/Info.plist0#
-
-CProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-bpgfsuxvsaktckecmyekcxlvekur/Timr_Prefix.pch.gch Timr_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-s282613140.813844
-e282613144.011231
-r1
-xProcessPCH
-x/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-bpgfsuxvsaktckecmyekcxlvekur/Timr_Prefix.pch.gch
-xTimr_Prefix.pch
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Timr_Prefix.pch282613140#282613144#0(0"0(0#0#42"/Users/jeena/Projects/Timr/Timr_Prefix.pch4300885448#1204"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/ppc -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -c /Users/jeena/Projects/Timr/Timr_Prefix.pch -o /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-bpgfsuxvsaktckecmyekcxlvekur/Timr_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-bydyffzfzerucddyiqkleagtonab/Timr_Prefix.pch.gch Timr_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s282610916.659635
-e282610922.937466
-r1
-xProcessPCH
-x/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-bydyffzfzerucddyiqkleagtonab/Timr_Prefix.pch.gch
-xTimr_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Timr_Prefix.pch282610916#282610922#0(0"0(0#0#42"/Users/jeena/Projects/Timr/Timr_Prefix.pch4300885448#1209"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/i386 -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -c /Users/jeena/Projects/Timr/Timr_Prefix.pch -o /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-bydyffzfzerucddyiqkleagtonab/Timr_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-czupwbyuncfarwcucgqbhfwwapmn/Timr_Prefix.pch.gch Timr_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s282613133.724997
-e282613140.965228
-r1
-xProcessPCH
-x/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-czupwbyuncfarwcucgqbhfwwapmn/Timr_Prefix.pch.gch
-xTimr_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Timr_Prefix.pch282613133#282613140#0(0"0(0#0#42"/Users/jeena/Projects/Timr/Timr_Prefix.pch4300885448#1209"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/i386 -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -c /Users/jeena/Projects/Timr/Timr_Prefix.pch -o /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-czupwbyuncfarwcucgqbhfwwapmn/Timr_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-ekfritldexgmrqgzpjiculjimokx/Timr_Prefix.pch.gch Timr_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s282610916.658353
-e282610922.066505
-r1
-xProcessPCH
-x/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-ekfritldexgmrqgzpjiculjimokx/Timr_Prefix.pch.gch
-xTimr_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Timr_Prefix.pch282610916#282610922#0(0"0(0#0#42"/Users/jeena/Projects/Timr/Timr_Prefix.pch4300885448#1213"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/x86_64 -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -c /Users/jeena/Projects/Timr/Timr_Prefix.pch -o /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-ekfritldexgmrqgzpjiculjimokx/Timr_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-ekqzddmxvrvkmydcpzvhuagmyaiz/Timr_Prefix.pch.gch Timr_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s282614990.125015
-e282614995.089637
-r1
-xProcessPCH
-x/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-ekqzddmxvrvkmydcpzvhuagmyaiz/Timr_Prefix.pch.gch
-xTimr_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Timr_Prefix.pch282614990#282614995#0(0"0(0#0#42"/Users/jeena/Projects/Timr/Timr_Prefix.pch4300885448#1209"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/i386 -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -c /Users/jeena/Projects/Timr/Timr_Prefix.pch -o /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-ekqzddmxvrvkmydcpzvhuagmyaiz/Timr_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-fhuufnwqasjdejfdybxdktrchgng/Timr_Prefix.pch.gch Timr_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s282614990.122877
-e282614994.959716
-r1
-xProcessPCH
-x/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-fhuufnwqasjdejfdybxdktrchgng/Timr_Prefix.pch.gch
-xTimr_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o<built-in>:0: warning: Mac OS X version 10.5 or later is needed for use of the new objc abi
-lSLF07#2@26"Precompile Timr_Prefix.pch282614990#282614994#0(92"<built-in>:0: warning: Mac OS X version 10.5 or later is needed for use of the new objc abi1(22@68"Mac OS X version 10.5 or later is needed for use of the new objc abi282614990#0#92#0(6@10"<built-in>282614990#0#0#0#0#0"0(0#0#42"/Users/jeena/Projects/Timr/Timr_Prefix.pch4300885448#1213"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/x86_64 -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -c /Users/jeena/Projects/Timr/Timr_Prefix.pch -o /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-fhuufnwqasjdejfdybxdktrchgng/Timr_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-fqyjnqagoygsnqbukssfxerdtywm/Timr_Prefix.pch.gch Timr_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-fzbbnodaaduminaxboqgfihihwrb/Timr_Prefix.pch.gch Timr_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-gamokpcsumbjfradcnrpaptywctx/Timr_Prefix.pch.gch Timr_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s282613133.700814
-e282613140.813616
-r1
-xProcessPCH
-x/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-gamokpcsumbjfradcnrpaptywctx/Timr_Prefix.pch.gch
-xTimr_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Timr_Prefix.pch282613133#282613140#0(0"0(0#0#42"/Users/jeena/Projects/Timr/Timr_Prefix.pch7589743444913120256#1213"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/x86_64 -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -c /Users/jeena/Projects/Timr/Timr_Prefix.pch -o /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-gamokpcsumbjfradcnrpaptywctx/Timr_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-ggxhorspmloirxefyuhfkiwjneqe/Timr_Prefix.pch.gch Timr_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-s282614994.960001
-e282614998.218297
-r1
-xProcessPCH
-x/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-ggxhorspmloirxefyuhfkiwjneqe/Timr_Prefix.pch.gch
-xTimr_Prefix.pch
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Timr_Prefix.pch282614994#282614998#0(0"0(0#0#42"/Users/jeena/Projects/Timr/Timr_Prefix.pch4300885448#1204"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/ppc -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -c /Users/jeena/Projects/Timr/Timr_Prefix.pch -o /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-ggxhorspmloirxefyuhfkiwjneqe/Timr_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-guxomtnxtwxknzelbsxmbgmheyoh/Timr_Prefix.pch.gch Timr_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-hbbkztezomnxjodbqxjszvocgudg/Timr_Prefix.pch.gch Timr_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-s282610922.066725
-e282610926.303555
-r1
-xProcessPCH
-x/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-hbbkztezomnxjodbqxjszvocgudg/Timr_Prefix.pch.gch
-xTimr_Prefix.pch
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Timr_Prefix.pch282610922#282610926#0(0"0(0#0#42"/Users/jeena/Projects/Timr/Timr_Prefix.pch4300885448#1204"    cd /Users/jeena/Projects/Timr    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-generated-files.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-own-target-headers.hmap -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-all-target-headers.hmap -iquote /Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/Timr-project-headers.hmap -F/Users/jeena/Projects/Timr/build/Release -I/Users/jeena/Projects/Timr/build/Release/include -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources/ppc -I/Users/jeena/Projects/Timr/build/Timr.build/Release/Timr.build/DerivedSources -c /Users/jeena/Projects/Timr/Timr_Prefix.pch -o /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Timr_Prefix-hbbkztezomnxjodbqxjszvocgudg/Timr_Prefix.pch.gch0#
-
-CTouch /Users/jeena/Projects/Timr/build/Release/Timr.app
-s282616754.165894
-e282616754.168647
-r1
-xTouch
-x/Users/jeena/Projects/Timr/build/Release/Timr.app
-lSLF07#2@55"Touch /Users/jeena/Projects/Timr/build/Release/Timr.app282616754#282616754#0(0"0(0#0#0"4300885448#106"    cd /Users/jeena/Projects/Timr    /usr/bin/touch -c /Users/jeena/Projects/Timr/build/Release/Timr.app0#
-

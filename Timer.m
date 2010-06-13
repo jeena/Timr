@@ -24,9 +24,6 @@
 
 		colon = [[NSImage imageNamed:@"colon.png"] retain];
 		no_colon = [[NSImage imageNamed:@"no_colon.png"] retain];
-		start_button = [[NSImage imageNamed:@"start-button.png"] retain];
-		pause_button = [[NSImage imageNamed:@"pause-button.png"] retain];
-		alarm_button = [[NSImage imageNamed:@"alarm-button.png"] retain];
 		
 		NSString *path = [[NSBundle mainBundle] pathForResource:@"alarm" ofType:@"wav"];
 		alarmSound = [[NSSound alloc] initWithContentsOfFile:path byReference:NO];
@@ -50,6 +47,8 @@
 		isAlarm = NO;
 		cleared = NO;
 		ongoing = NO;
+		
+		[clearSound play];
 	}
 	
 	return self;
@@ -60,9 +59,6 @@
 	[digits release];
 	[colon release];
 	[no_colon release];
-	[start_button release];
-	[pause_button release];
-	[alarm_button release];
 	[clickSound release];
 	[clearSound release];
 	
@@ -86,31 +82,24 @@
 - (IBAction)startOrPause:(NSButton *)sender {
 	
 	[clickSound play];
-	ongoing = YES;
 	
 	if (isAlarm) {
-		cleared = YES;
-		start.image = start_button;
+		[self stopRepeatingTimer:self];
 		[self clearNow];
-	
+		ongoing = NO;
 	} else {
 
-		if (start.image == start_button) {
-			start.image = pause_button;
+		if (!ongoing) {
 			[self startRepeatingTimer:self];
 			[clear setTransparent:YES];
+			ongoing = YES;
 			cleared = NO;
-			
-		} else if (start.image == pause_button) {
-			
-			start.image = start_button;
+		} else {
 			[self stopRepeatingTimer:self];
 			[clear setTransparent:NO];
-			
+			ongoing = NO;	
 		}
-		
 	}
-
 }
 
 - (void)clearNow:(id)sender {
@@ -120,11 +109,9 @@
 }
 
 - (void)clearNow {
-	
 	remainingSeconds = [[NSUserDefaults standardUserDefaults] integerForKey:@"defaultTime"];
-
 	[self setDigitsForTime:remainingSeconds];
-	ongoing = NO;
+	cleared = YES;
 }
 
 
@@ -133,10 +120,10 @@
 	[self setDigitsForTime:remainingSeconds];
 
 	remainingSeconds -= 1;
+	
 	if (remainingSeconds < 0) {
 		[theTimer invalidate];
 		self.repeatingTimer = nil;
-		start.image = alarm_button;
 		[self alarm:self];
 		cleared = NO;
 	}
@@ -181,15 +168,14 @@
 
 }
 
-- (IBAction)startRepeatingTimer:(id)sender {
-	
+- (void)startRepeatingTimer:(id)sender {
     NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1
 													  target:self selector:@selector(tick:)
 													userInfo:nil repeats:YES];
     self.repeatingTimer = timer;
 }
 
-- (IBAction)stopRepeatingTimer:(id)sender {
+- (void)stopRepeatingTimer:(id)sender {
     [repeatingTimer invalidate];
     self.repeatingTimer = nil;
 }

@@ -10,12 +10,14 @@
 
 @implementation TimrAppDelegate
 
-@synthesize window, timer;
+@synthesize window, timer, aWindow;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application 
-	
+	[aWindow setBackgroundColor:[NSColor colorWithPatternImage:[NSImage imageNamed:@"wood.png"]]];
 	[timer applicationLoaded:self];
+	
+	[aWindow orderFront:self];
 }
 
 

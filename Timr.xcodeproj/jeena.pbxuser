@@ -10,17 +10,24 @@
 	};
 	1F4C161810D7C99B0002BD95 /* Timer.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {849, 855}}";
-			sepNavSelRange = "{168, 0}";
-			sepNavVisRange = "{0, 905}";
+			sepNavIntBoundsRect = "{{0, 0}, {849, 1016}}";
+			sepNavSelRange = "{1003, 0}";
+			sepNavVisRange = "{0, 1041}";
 		};
 	};
 	1F4C161910D7C99B0002BD95 /* Timer.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {705, 2985}}";
-			sepNavSelRange = "{469, 0}";
-			sepNavVisRange = "{513, 297}";
+			sepNavIntBoundsRect = "{{0, 0}, {849, 3435}}";
+			sepNavSelRange = "{2563, 0}";
+			sepNavVisRange = "{1595, 1529}";
 		};
+	};
+	1F4C171810D805960002BD95 /* alarm-button.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "alarm-button.png";
+		path = "/Users/jeena/Desktop/Timr/alarm-button.png";
+		sourceTree = "<absolute>";
 	};
 	1F4C172210D8071D0002BD95 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -31,7 +38,7 @@
 		fRef = 1F4C161910D7C99B0002BD95 /* Timer.m */;
 		name = "Timer.m: 111";
 		rLen = 0;
-		rLoc = 3001;
+		rLoc = 2616;
 		rType = 0;
 		vrLen = 1447;
 		vrLoc = 2471;
@@ -105,6 +112,17 @@
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
+	1F85889111C44CC900AEB6A0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Timr-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jeena/Desktop/Timr/Timr-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
 	1FB3489F10D7B805003E34A4 /* Timr */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -153,16 +171,16 @@
 	};
 	256AC3D80F4B6AC300CF3369 /* TimrAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {439, 405}}";
-			sepNavSelRange = "{350, 0}";
-			sepNavVisRange = "{71, 297}";
+			sepNavIntBoundsRect = "{{0, 0}, {849, 713}}";
+			sepNavSelRange = "{561, 0}";
+			sepNavVisRange = "{0, 574}";
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* TimrAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {849, 696}}";
-			sepNavSelRange = "{7, 0}";
-			sepNavVisRange = "{0, 390}";
+			sepNavIntBoundsRect = "{{0, 0}, {849, 690}}";
+			sepNavSelRange = "{448, 0}";
+			sepNavVisRange = "{0, 493}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -233,8 +251,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 282616713;
-			PBXWorkspaceStateSaveDate = 282616713;
+			PBXPerProjectTemplateStateSaveDate = 298077373;
+			PBXWorkspaceStateSaveDate = 298077373;
 		};
 		perUserProjectItems = {
 			1F4C172210D8071D0002BD95 = 1F4C172210D8071D0002BD95 /* PBXBookmark */;
@@ -247,6 +265,7 @@
 			1F4F443010D85CDB00B3E297 = 1F4F443010D85CDB00B3E297 /* PBXTextBookmark */;
 			1F4F443110D85CDB00B3E297 = 1F4F443110D85CDB00B3E297 /* PBXBookmark */;
 			1F4F443A10D85E8900B3E297 = 1F4F443A10D85E8900B3E297 /* PlistBookmark */;
+			1F85889111C44CC900AEB6A0 /* PlistBookmark */ = 1F85889111C44CC900AEB6A0 /* PlistBookmark */;
 		};
 		sourceControlManager = 1FB348B110D7B81C003E34A4 /* Source Control */;
 		userBuildSettings = {

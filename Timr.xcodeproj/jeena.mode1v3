@@ -228,6 +228,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -326,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1F4F443A10D85E8900B3E297</string>
+										<string>1F85889111C44CC900AEB6A0</string>
 										<key>history</key>
 										<array>
 											<string>1F4C172210D8071D0002BD95</string>
@@ -337,7 +339,7 @@
 											<string>1F4F442E10D85CDB00B3E297</string>
 											<string>1F4F442F10D85CDB00B3E297</string>
 											<string>1F4F443010D85CDB00B3E297</string>
-											<string>1F4F443110D85CDB00B3E297</string>
+											<string>1F4F443A10D85E8900B3E297</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -349,14 +351,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {910, 751}}</string>
+								<string>{{0, 0}, {910, 745}}</string>
 								<key>RubberWindowFrame</key>
 								<string>11 59 1118 1119 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>751pt</string>
+							<string>745pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -369,14 +371,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 756}, {910, 322}}</string>
+								<string>{{0, 750}, {910, 328}}</string>
 								<key>RubberWindowFrame</key>
 								<string>11 59 1118 1119 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>322pt</string>
+							<string>328pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -395,9 +397,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1F4F441410D8561A00B3E297</string>
+				<string>1F85889211C44CC900AEB6A0</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>1F4F441510D8561A00B3E297</string>
+				<string>1F85889311C44CC900AEB6A0</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -535,13 +537,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C530D57069F1CE1000CFCEE</string>
-		<string>1F4F441F10D8561A00B3E297</string>
-		<string>1F4F442010D8561A00B3E297</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1FB348AF10D7B81C003E34A4</string>
-		<string>/Users/jeena/Projects/Timr/Timr.xcodeproj</string>
+		<string>/Users/jeena/Desktop/Timr/Timr.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>11 59 1118 1119 0 0 1920 1178 </string>
@@ -565,7 +562,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TimrAppDelegate.h</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -582,8 +579,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -623,7 +618,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1FB348AF10D7B81C003E34A4</string>
-				<string>1F4F441610D8561A00B3E297</string>
+				<string>1F85889411C44CC900AEB6A0</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -636,7 +631,7 @@
 			<key>WindowToolGUID</key>
 			<string>1FB348AF10D7B81C003E34A4</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

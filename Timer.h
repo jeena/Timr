@@ -21,9 +21,6 @@
 	NSMutableArray *digits;
 	NSImage *colon;
 	NSImage *no_colon;
-	NSImage *start_button;
-	NSImage *pause_button;
-	NSImage *alarm_button;
 	NSSound *alarmSound;
 	NSSound *clickSound;
 	NSSound *clearSound;
@@ -49,7 +46,7 @@
 - (IBAction)changeDigit:(NSButton *)sender;
 - (IBAction)clearNow:(id)sender;
 
-- (IBAction)startRepeatingTimer:(id)sender;
-- (IBAction)stopRepeatingTimer:(id)sender;
+- (void)startRepeatingTimer:(id)sender;
+- (void)stopRepeatingTimer:(id)sender;
 
 @end

@@ -15,11 +15,13 @@
 @interface TimrAppDelegate : NSObject <NSApplicationDelegate>
 #endif
 {
-	NSWindow *window;
-	Timer *timer;
+	IBOutlet NSWindow *window;
+	IBOutlet Timer *timer;
+	IBOutlet NSWindow *aWindow;
 }
 
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet Timer *timer;
+@property (assign) IBOutlet NSWindow *aWindow;
 
 @end
