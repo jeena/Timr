@@ -1,12 +1,3 @@
 == Timr
 
-Timr is a simple timer for OS X in a kind of a retro look.
-
-You can select the time by clicking on the digits, start it
-by clicking on the start button, which turns to pause, and
-in pause mode you can reset the timer by clicking on
-the little "C" which appears under the big start button.
-
-
-Author: Jeena Paradies <spam@jeenaparadies.net>
-Licence: MIT-Licence
+Timr is a simple timer for OS X.
