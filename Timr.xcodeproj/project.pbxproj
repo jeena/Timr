@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		1F12DE5C12D75DB600A4538A /* power-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F12DE5B12D75DB600A4538A /* power-button.png */; };
+		1F12DE6612D7671600A4538A /* power-button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F12DE6512D7671600A4538A /* power-button-pressed.png */; };
 		1F4C161A10D7C99B0002BD95 /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C161910D7C99B0002BD95 /* Timer.m */; };
 		1F4C163110D7CE3B0002BD95 /* colon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C162610D7CE3B0002BD95 /* colon.png */; };
 		1F4C163210D7CE3B0002BD95 /* digit-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C162710D7CE3B0002BD95 /* digit-0.png */; };
@@ -26,9 +28,7 @@
 		1F4C18C510D84AE20002BD95 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C18C410D84AE20002BD95 /* click.wav */; };
 		1F4C190E10D851D70002BD95 /* clear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C190D10D851D70002BD95 /* clear.wav */; };
 		1F4C192210D853BA0002BD95 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C192110D853BA0002BD95 /* Icon.icns */; };
-		1F8588E711C4569600AEB6A0 /* apple-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8588E611C4569600AEB6A0 /* apple-logo.png */; };
 		1F85890311C45E5300AEB6A0 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F85890211C45E5300AEB6A0 /* wood.png */; };
-		1F85890811C45EF200AEB6A0 /* apple-logo-pushed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F85890711C45EF200AEB6A0 /* apple-logo-pushed.png */; };
 		256AC3DA0F4B6AC300CF3369 /* TimrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* TimrAppDelegate.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -40,6 +40,8 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1F12DE5B12D75DB600A4538A /* power-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "power-button.png"; sourceTree = "<group>"; };
+		1F12DE6512D7671600A4538A /* power-button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "power-button-pressed.png"; sourceTree = "<group>"; };
 		1F4C161810D7C99B0002BD95 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
 		1F4C161910D7C99B0002BD95 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
 		1F4C162610D7CE3B0002BD95 /* colon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colon.png; sourceTree = "<group>"; };
@@ -59,9 +61,7 @@
 		1F4C18C410D84AE20002BD95 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
 		1F4C190D10D851D70002BD95 /* clear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clear.wav; sourceTree = "<group>"; };
 		1F4C192110D853BA0002BD95 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
-		1F8588E611C4569600AEB6A0 /* apple-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-logo.png"; sourceTree = "<group>"; };
 		1F85890211C45E5300AEB6A0 /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
-		1F85890711C45EF200AEB6A0 /* apple-logo-pushed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-logo-pushed.png"; sourceTree = "<group>"; };
 		256AC3D80F4B6AC300CF3369 /* TimrAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimrAppDelegate.h; sourceTree = "<group>"; };
 		256AC3D90F4B6AC300CF3369 /* TimrAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimrAppDelegate.m; sourceTree = "<group>"; };
 		256AC3F00F4B6AF500CF3369 /* Timr_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timr_Prefix.pch; sourceTree = "<group>"; };
@@ -124,9 +124,9 @@
 		1F4C160610D7BF030002BD95 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				1F85890711C45EF200AEB6A0 /* apple-logo-pushed.png */,
+				1F12DE6512D7671600A4538A /* power-button-pressed.png */,
+				1F12DE5B12D75DB600A4538A /* power-button.png */,
 				1F85890211C45E5300AEB6A0 /* wood.png */,
-				1F8588E611C4569600AEB6A0 /* apple-logo.png */,
 				1F4C18AF10D847310002BD95 /* clear-button.png */,
 				1F4C162610D7CE3B0002BD95 /* colon.png */,
 				1F4C162710D7CE3B0002BD95 /* digit-0.png */,
@@ -223,9 +223,19 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Timr" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Timr */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,9 +269,9 @@
 				1F4C18C510D84AE20002BD95 /* click.wav in Resources */,
 				1F4C190E10D851D70002BD95 /* clear.wav in Resources */,
 				1F4C192210D853BA0002BD95 /* Icon.icns in Resources */,
-				1F8588E711C4569600AEB6A0 /* apple-logo.png in Resources */,
 				1F85890311C45E5300AEB6A0 /* wood.png in Resources */,
-				1F85890811C45EF200AEB6A0 /* apple-logo-pushed.png in Resources */,
+				1F12DE5C12D75DB600A4538A /* power-button.png in Resources */,
+				1F12DE6612D7671600A4538A /* power-button-pressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,9 +314,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -314,8 +324,9 @@
 				INFOPLIST_FILE = "Timr-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Timr;
-				SDKROOT = macosx10.5;
+				SDKROOT = "";
 			};
 			name = Debug;
 		};
@@ -323,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -330,8 +342,9 @@
 				INFOPLIST_FILE = "Timr-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Timr;
-				SDKROOT = macosx10.5;
+				SDKROOT = "";
 			};
 			name = Release;
 		};
@@ -344,8 +357,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = "";
 			};
 			name = Debug;
 		};
@@ -356,8 +368,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = "";
 			};
 			name = Release;
 		};

@@ -8,6 +8,25 @@
 			sepNavWindowFrame = "{{38, 70}, {1622, 1082}}";
 		};
 	};
+	1F12DEC412D7AD0B00A4538A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Timr-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jeena/Projects/Timr/Timr-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	1F12DEC512D7AD0B00A4538A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1F4C162C10D7CE3B0002BD95 /* digit-5.png */;
+	};
+	1F12DEC612D7AD0B00A4538A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1F4C162C10D7CE3B0002BD95 /* digit-5.png */;
+	};
 	1F4C161810D7C99B0002BD95 /* Timer.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {849, 1016}}";
@@ -21,17 +40,6 @@
 			sepNavSelRange = "{2563, 0}";
 			sepNavVisRange = "{1595, 1529}";
 		};
-	};
-	1F4C171810D805960002BD95 /* alarm-button.png */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.png;
-		name = "alarm-button.png";
-		path = "/Users/jeena/Desktop/Timr/alarm-button.png";
-		sourceTree = "<absolute>";
-	};
-	1F4C172210D8071D0002BD95 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 1F4C171810D805960002BD95 /* alarm-button.png */;
 	};
 	1F4C192710D854F20002BD95 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -96,32 +104,6 @@
 		rType = 0;
 		vrLen = 45;
 		vrLoc = 0;
-	};
-	1F4F443110D85CDB00B3E297 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Timr-Info.plist */;
-	};
-	1F4F443A10D85E8900B3E297 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Timr-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/jeena/Projects/Timr/Timr-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	1F85889111C44CC900AEB6A0 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Timr-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/jeena/Desktop/Timr/Timr-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
 	};
 	1FB3489F10D7B805003E34A4 /* Timr */ = {
 		isa = PBXExecutable;
@@ -251,21 +233,20 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 298077373;
-			PBXWorkspaceStateSaveDate = 298077373;
+			PBXPerProjectTemplateStateSaveDate = 316104005;
+			PBXWorkspaceStateSaveDate = 316104005;
 		};
 		perUserProjectItems = {
-			1F4C172210D8071D0002BD95 = 1F4C172210D8071D0002BD95 /* PBXBookmark */;
-			1F4C192710D854F20002BD95 = 1F4C192710D854F20002BD95 /* PBXTextBookmark */;
-			1F4C192810D854F20002BD95 = 1F4C192810D854F20002BD95 /* PBXBookmark */;
-			1F4F442C10D85CDB00B3E297 = 1F4F442C10D85CDB00B3E297 /* PBXTextBookmark */;
-			1F4F442D10D85CDB00B3E297 = 1F4F442D10D85CDB00B3E297 /* PBXTextBookmark */;
-			1F4F442E10D85CDB00B3E297 = 1F4F442E10D85CDB00B3E297 /* PBXTextBookmark */;
-			1F4F442F10D85CDB00B3E297 = 1F4F442F10D85CDB00B3E297 /* PBXTextBookmark */;
-			1F4F443010D85CDB00B3E297 = 1F4F443010D85CDB00B3E297 /* PBXTextBookmark */;
-			1F4F443110D85CDB00B3E297 = 1F4F443110D85CDB00B3E297 /* PBXBookmark */;
-			1F4F443A10D85E8900B3E297 = 1F4F443A10D85E8900B3E297 /* PlistBookmark */;
-			1F85889111C44CC900AEB6A0 /* PlistBookmark */ = 1F85889111C44CC900AEB6A0 /* PlistBookmark */;
+			1F12DEC412D7AD0B00A4538A /* PlistBookmark */ = 1F12DEC412D7AD0B00A4538A /* PlistBookmark */;
+			1F12DEC512D7AD0B00A4538A /* PBXBookmark */ = 1F12DEC512D7AD0B00A4538A /* PBXBookmark */;
+			1F12DEC612D7AD0B00A4538A /* PBXBookmark */ = 1F12DEC612D7AD0B00A4538A /* PBXBookmark */;
+			1F4C192710D854F20002BD95 /* PBXTextBookmark */ = 1F4C192710D854F20002BD95 /* PBXTextBookmark */;
+			1F4C192810D854F20002BD95 /* PBXBookmark */ = 1F4C192810D854F20002BD95 /* PBXBookmark */;
+			1F4F442C10D85CDB00B3E297 /* PBXTextBookmark */ = 1F4F442C10D85CDB00B3E297 /* PBXTextBookmark */;
+			1F4F442D10D85CDB00B3E297 /* PBXTextBookmark */ = 1F4F442D10D85CDB00B3E297 /* PBXTextBookmark */;
+			1F4F442E10D85CDB00B3E297 /* PBXTextBookmark */ = 1F4F442E10D85CDB00B3E297 /* PBXTextBookmark */;
+			1F4F442F10D85CDB00B3E297 /* PBXTextBookmark */ = 1F4F442F10D85CDB00B3E297 /* PBXTextBookmark */;
+			1F4F443010D85CDB00B3E297 /* PBXTextBookmark */ = 1F4F443010D85CDB00B3E297 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1FB348B110D7B81C003E34A4 /* Source Control */;
 		userBuildSettings = {

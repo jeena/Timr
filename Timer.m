@@ -25,21 +25,18 @@
 		colon = [[NSImage imageNamed:@"colon.png"] retain];
 		no_colon = [[NSImage imageNamed:@"no_colon.png"] retain];
 		
-		NSString *path = [[NSBundle mainBundle] pathForResource:@"alarm" ofType:@"wav"];
-		alarmSound = [[NSSound alloc] initWithContentsOfFile:path byReference:NO];
-		[path release];
+        alarmSound = [NSSound soundNamed:@"alarm.wav"];
+        [alarmSound retain];
 		[alarmSound setLoops:YES];
 		[alarmSound setVolume:1];
-		
-		path = [[NSBundle mainBundle] pathForResource:@"click" ofType:@"wav"];
-		clickSound = [[NSSound alloc] initWithContentsOfFile:path byReference:NO];
-		[path release];
+        
+		clickSound = [NSSound soundNamed:@"click.wav"];
+        [clickSound retain];
 		[clickSound setLoops:NO];
 		[clickSound setVolume:0.2];
 		
-		path = [[NSBundle mainBundle] pathForResource:@"clear" ofType:@"wav"];
-		clearSound = [[NSSound alloc] initWithContentsOfFile:path byReference:NO];
-		[path release];
+		clearSound = [NSSound soundNamed:@"clear.wav"];
+        [clearSound retain];
 		[clearSound setLoops:NO];
 		[clearSound setVolume:0.2];
 		
@@ -106,12 +103,14 @@
 	[self clearNow];
 	[clear setTransparent:YES];
 	[clearSound play];
+    [[[NSApplication sharedApplication] dockTile] setBadgeLabel:nil];
 }
 
 - (void)clearNow {
 	remainingSeconds = [[NSUserDefaults standardUserDefaults] integerForKey:@"defaultTime"];
 	[self setDigitsForTime:remainingSeconds];
 	cleared = YES;
+    [[[NSApplication sharedApplication] dockTile] setBadgeLabel:nil];
 }
 
 
@@ -151,6 +150,10 @@
 	minute1.image = [digits objectAtIndex:md1];
 	second2.image = [digits objectAtIndex:sd2];
 	second1.image = [digits objectAtIndex:sd1];
+    
+    
+    NSString *badge = [NSString stringWithFormat:@"%i%i:%i%i", hd2, hd1, md2, md1];
+    [[[NSApplication sharedApplication] dockTile] setBadgeLabel:badge];
 	
 }
 
