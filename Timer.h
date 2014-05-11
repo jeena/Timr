@@ -32,6 +32,7 @@
 	bool ongoing;
 	
 	NSTimer *repeatingTimer;
+    id<NSObject> action;
 }
 
 @property (assign) NSTimer *repeatingTimer;

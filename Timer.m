@@ -176,11 +176,15 @@
 													  target:self selector:@selector(tick:)
 													userInfo:nil repeats:YES];
     self.repeatingTimer = timer;
+    action = [[NSProcessInfo processInfo] beginActivityWithOptions:NSActivityUserInitiated reason:@"Timr needs to run every second"];
+    [action retain];
 }
 
 - (void)stopRepeatingTimer:(id)sender {
     [repeatingTimer invalidate];
     self.repeatingTimer = nil;
+    [[NSProcessInfo processInfo] endActivity:action];
+    [action release];
 }
 
 - (IBAction)changeDigit:(NSButton *)sender {
